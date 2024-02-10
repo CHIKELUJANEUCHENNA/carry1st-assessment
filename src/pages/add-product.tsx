@@ -4,7 +4,6 @@ import * as Yup from "yup";
 import axios from "axios";
 import TextInput from "../components/Reusabel/TextInput";
 import { yupResolver } from "@hookform/resolvers/yup";
-import router from "next/router";
 
 type FormData = {
   name: string;

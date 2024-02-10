@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react';
-import '@testing-library/jest-dom'; // For extending Jest's expect function with DOM assertions
-import axios, { AxiosResponse } from 'axios';
+import '@testing-library/jest-dom';
 import AddProduct from '@/pages/add-product';
 
 // Mock axios module

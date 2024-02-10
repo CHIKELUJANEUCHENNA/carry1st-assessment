@@ -22,12 +22,10 @@ function ProductPage() {
         console.error('Error fetching product:', error)
       }
     }
-
     if (productId) {
       fetchProduct()
     }
   }, [productId])
-
   if (!product) {
     return <Loading />
   }
